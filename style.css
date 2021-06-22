@@ -1,0 +1,43 @@
+.container>button
+{
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+.container{
+    background-color: rgb(60, 135, 247);
+}
+body
+{
+    background-color: black;
+}
+h1{
+ border: 2px solid red;   
+color: white;
+background-color: rgb(243, 174, 26);
+
+width: 50%;
+}
+.head
+{
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-bottom:50px;
+
+}
+.form
+{
+    padding-top: 50px;
+}
+
+.text-box
+{
+    font-size: large;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding:8px;
+    width: 30%;
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="head">
+    <h1 class="text-center" > CALCULATOR</h1>
+
+  </div>
+  <div class="container form" style=" border-radius: 10px; width :50%">
+    <label for="numb1" class="form-label text-box"><b>Number 1</b></label>
+    <input type="text" style="width: 40%;" class="form-control" name="" id="numb1" placeholder="Enter number 1">
+    <br>
+    <label for="numb2" class="form-label text-box"><b>Number 2</b></label>
+    <input type="text" style="width: 40%;" class="form-control" name="" id="numb2" placeholder="Enter number 2"><br><br>
+        
+        
+        
+        <button type="button" onclick="operator(1)" class=" btn-warning" name="button"  ><b>+</b></button>
+        <button type="button"  name="button" onclick="operator(2)" class=" btn-warning" ><b>-</b> </button>
+        <button type="button"  name="button" onclick="operator(3)" class=" btn-warning" > <b>*</b> </button>
+        <button type="button"  name="button" onclick ="operator(4)" class="btn-warning" > <b>/</b> </button>
+        <button type="button"  name="button" onclick ="operator(5)" class="btn-warning" > <b>%</b> </button>
+        <button type="button"  name="button" onclick ="operator(6)" class="btn-warning" > <b>pow</b> </button><br><br>
+
+
+        
+        <input type="text" style="width: 70%; cursor: not-allowed;" disabled class="form-control "  placeholder="Result"  id="res" ><br><br>
+        <button type="reset" onclick="resetform()" class="btn-dark">Reset</button>
+
+
+  </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
